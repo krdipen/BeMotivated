@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href ="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>IITD Email Verification</title>
+    </head>
+    <body>
+    <center><h1 style="color:#fff">BeMotivated : Create New Account </h1></center>
+<center>
+<form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
+<h2 style="color: white;">Verify Your IITD email address </h2>
+<p style="color: white"> Example : cs118xxxx@iitd.ac.in</p>
+        <input id="emailid" placeholder="IIT Delhi Email address" type="email" pattern="[a-z,0-9]*[@][i][i][t][d][/.][a][c][/.][i][n]" required></br>
+<button id="send" type="submit" class="common_btn">Next</button>
+</form> </center>
+<script src="create.js"></script>
+</body>
+</html>

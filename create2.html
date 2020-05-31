@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href ="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title>Login Page</title>
+</head>
+<body>
+<center><h1 style="color:#fff">BeMotivated : New Account Verification </h1></center>
+<center>
+<form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
+	<h2 style="color: white;">Enter your Entry Number </h2>
+	<input id="entrynumber" placeholder="IIT Delhi Entry Number" type="text" pattern="[0-9]+[A-Z]+[0-9]+" required></br>
+		<h2 style="color: white;">Verification Code </h2>
+	<input id="code" placeholder="Enter code you get on your email" type="text" required></br>
+			<h2 style="color: white;">Name</h2>
+	<input id="name" placeholder="Enter your Full Name" type="text" required></br>
+	<h2 style="color: white;">Generate Password</h2>
+	<input id="password" placeholder="Generate Your password" type="password" required></br>
+<button id="send" type="submit" class="common_btn">Submit</button>
+</form> </center>
+<script src="create2.js"></script>
+</body>
+</html>
