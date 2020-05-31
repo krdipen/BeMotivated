@@ -1,8 +1,8 @@
 function postToGoogle() {
-                var emailid = $("#emailid").val();
+                var kerberos = $("#emailid").val();
                 $.ajax({
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfNaReT96NWmLYFfh_XFflym8b7B4WpPtN29j0d_1uloSMzBg/formResponse?",
-          data: {"entry.1955518625": emailid},
+          data: {"entry.1955518625": kerberos},
                     type: "POST",
                     dataType: "xml",
                     success: function(d)
@@ -12,7 +12,7 @@ function postToGoogle() {
             {
 
               $('#form').hide();
-              window.open("create2.html", "_top");
+              window.open("signup.html", "_top");
             }
                 });
         return false;

@@ -13,7 +13,7 @@ function postToGoogle() {
           },
           error: function(x, y, z)
             {
-              alert("Your blog has been submitted for approval and will be posted in next 1 working hour.")
+              alert("Your story has been posted.")
               window.open("index.html", "_top");
             }
                 });
