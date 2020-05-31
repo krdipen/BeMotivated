@@ -14,9 +14,9 @@ function postToGoogle() {
           },
           error: function(x, y, z)
             {
-              alert("Thanks! Your account has been created.\n Now you can post your stories on BeMotivated.")
+              alert("Thanks! Your account has been created.\nNow you can post your stories on BeMotivated Network.")
               $('#form').hide();
-              window.open("post.html", "_top");
+              window.open("index.html", "_top");
             }
                 });
         return false;
