@@ -12,7 +12,7 @@ function postToGoogle() {
             {
 
               $('#form').hide();
-              window.open("signup.html", "_top");
+              window.open("https://krdipen.github.io/BeMotivated/signup","_top");
             }
                 });
         return false;

@@ -16,7 +16,7 @@ function postToGoogle() {
             {
               alert("Thanks! Your account has been created.\nNow you can post your stories on BeMotivated Network.")
               $('#form').hide();
-              window.open("index.html", "_top");
+              window.open("https://krdipen.github.io/BeMotivated/","_top");
             }
                 });
         return false;

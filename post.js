@@ -14,7 +14,7 @@ function postToGoogle() {
           error: function(x, y, z)
             {
               alert("Your story has been posted on your page.");
-              window.open("index.html", "_top");
+              window.open("https://krdipen.github.io/BeMotivated/","_top");
             }
                 });
         return false;

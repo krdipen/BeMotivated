@@ -2,7 +2,7 @@ function postToGoogle() {
 
 
                 var username = $("#username").val();
-                username = username+".html";
-                window.open(username);
+                username = "https://krdipen.github.io/BeMotivated/" + username;
+                window.open(username,"_top");
 
             }
