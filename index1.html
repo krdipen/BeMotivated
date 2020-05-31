@@ -2,17 +2,21 @@
 <html>
 <head>
 <link rel="stylesheet" href ="style.css">
-<title>Login Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title>BeMotivsted Blog</title>
 </head>
 <body>
-<center><h1 style="color:#fff">BeMotivated : Login to Continue </h1></center>
+<center><h1 style="color:#fff">BeMotivated : Welcome to Inter IITD Blogs </h1></center>
 <center>
-<form id="form" target="_self" autocomplete="off">
-<h2 style="color: white;">Enter your IITD Kerberos Id </h2>
+<form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
+<h2 style="color: white;">Whom Blog woould you like to see </h2>
         <input id="username" placeholder="IITD Kerberos Id" type="text" required></br> 
-<button id="send" type="submit" class="common_btn">Sign in</button>
- <p style="color: white; font-size: 25px; font-family: verdana"><a href="">forgot password?</a>
+<button id="send" type="submit" class="common_btn">Post</button>
+</form>
+<script src="index1.js"></script>
+ <p style="color: white; font-size: 25px; font-family: verdana"><a href="fp.html">forgot password?</a>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="register.html">Create new account</a></p>
-</form> </center>
+</center>
 </body>
 </html>

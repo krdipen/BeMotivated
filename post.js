@@ -13,7 +13,7 @@ function postToGoogle() {
           },
           error: function(x, y, z)
             {
-              alert("Your story has been posted.")
+              alert("Your story has been posted.");
               window.open("index.html", "_top");
             }
                 });
