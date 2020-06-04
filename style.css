@@ -8,6 +8,9 @@ body {
 }
 form
 {
+    float: right;
+    margin-top: 0px;
+    margin-right: 100px;
     border: 2px solid white;
     width: 50%;
     background-color: #709A5B;
@@ -65,6 +68,23 @@ button[type=create] {
   border: none;
   cursor: pointer;
   font-size:20px;
+}
+
+button[type=list] {
+  background-color: #FAA104;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 20px 12px 20px;
+  margin: 28px 28px 28px 28px;
+  border: none;
+  cursor: pointer;
+  font-size:20px;
+}
+
+button[type=list]:hover {
+  background-color: #709A5B;
 }
 
 button[type=create]:hover {
