@@ -1,103 +1,158 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    background-image: url("pic1.jpg");
-    background-size: cover;
-    padding-bottom: 30px;
-    padding-top: 1px;
+    font-family: Sometimes;
+    color: white;
+    background-image: linear-gradient(90deg, #1f1f1f 16.67%, #212121 16.67%, #212121 33.33%, #1f1d1d 33.33%, #1f1d1d 41.67%, #1f1e1e 41.67%, #1f1e1e 50%, #1f1f1f 50%, #1f1f1f 66.67%, #212121 66.67%, #212121 83.33%, #1f1d1d 83.33%, #1f1d1d 91.67%, #1f1e1e 91.67%, #1f1e1e 100%);
+    background-size: 600.00px 600.00px;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
-form
-{
-    float: right;
-    margin-top: 0px;
-    margin-right: 100px;
+
+form {
     border: 2px solid white;
-    width: 50%;
+    width: 55%;
     background-color: #709A5B;
     border-radius: 1ch;
+    margin-bottom: 35px;
+}
+
+.float-form {
+    float: right;
+    margin-right: 115px;
+    margin-top: 5px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    margin-top: -53px;
+    margin-left: 350px;
+    height: 442px;
+    position: absolute;
+}
+
+.vl2 {
+    border-right: 2px solid white;
+    height: 60px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -45px;
+    margin-bottom: 35px;
+}
+
+.vl3 {
+    border-right: 2px solid white;
+    height: 60px;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -45px;
+    margin-bottom: 35px;
+}
+
+.vl4 {
+    border-right: 2px solid white;
+    height: 50px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+.hl {
+    border-top: 2px solid white;
+    margin-top: -30px;
+    margin-left: 201px;
+    width: 885px;
+    position: absolute;
 }
 
 input[type=text], input[type=password], input[type=email], select {
-  width: 80%;
-  font-size:20px;
-  padding: 12px 20px 12px 20px;
-  margin: 0px 0px 0px 0px;
-  display: inline-block;
-  border: 2px solid white;
-  box-sizing: border-box;
-  border-radius: 1ch;
+    font-family: Sometimes;
+    width: 80%;
+    font-size: 20px;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 1ch;
 }
 
 textarea[type=text] {
-  resize: vertical;
-  height: 603px;
-  width: 80%;
-  font-size:20px;
-  padding: 12px 20px 12px 20px;
-  margin: 0px 0px -20px 0px;
-  display: inline-block;
-  border: 2px solid white;
-  box-sizing: border-box;
-  border-radius: 1ch;
+    font-family: Sometimes;
+    resize: vertical;
+    height: 603px;
+    width: 80%;
+    font-size: 20px;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 0px -20px 0px;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 1ch;
 }
 
 textarea:hover, input:hover {
-  border: 2px solid #4064d7;
+    border: 2px solid #4064d7;
 }
+
 button[type=submit] {
-  background-color: #4064d7;
-  width: 200px;
-  height: 50px;
-  border-radius: 25px;
-  color: white;
-  padding: 12px 20px 12px 20px;
-  margin: 28px 28px 28px 28px;
-  border: none;
-  cursor: pointer;
-  font-size:20px;
+    font-family: Sometimes;
+    background-color: #4064d7;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    margin: 28px 28px 28px 28px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 button[type=create] {
-  background-color: #FAA104;
-  width: 350px;
-  height: 50px;
-  border-radius: 25px;
-  color: white;
-  padding: 12px 20px 12px 20px;
-  margin: 28px 28px 28px 28px;
-  border: none;
-  cursor: pointer;
-  font-size:20px;
+    font-family: Sometimes;
+    background-color: #93649B;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    margin: -5px 28px 35px 28px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 button[type=list] {
-  background-color: #FAA104;
-  width: 250px;
-  height: 50px;
-  border-radius: 25px;
-  color: white;
-  padding: 12px 20px 12px 20px;
-  margin: 28px 28px 28px 28px;
-  border: none;
-  cursor: pointer;
-  font-size:20px;
+    font-family: Sometimes;
+    background-color: #93649B;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 55px 32px 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 button[type=list]:hover {
-  background-color: #709A5B;
+    background-color: #709A5B;
 }
 
 button[type=create]:hover {
-  background-color: #709A5B;
+    background-color: #709A5B;
 }
 
 button[type=submit]:hover {
-  background-color: #3A3A3A;
+    background-color: #3A3A3A;
 }
 
 @media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
+    span.psw {
+        display: block;
+        float: none;
+    }
 }
